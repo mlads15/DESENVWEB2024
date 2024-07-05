@@ -1,0 +1,39 @@
+/* {
+    padding: 0;
+    margin: 0;
+} */
+
+header {
+    background: #cd98af;
+    /*padding: 20px 0;*/
+    height: 80px;
+}
+
+main {
+    background: #fafffd;
+    height: calc(100vh - 60px - 60px);
+}
+
+footer {
+    background-color: #cd98af;
+    /*padding: 30px 0;*/
+    /*TOP e BOTTOM, LEFT e  RIGHT*/
+    text-align: center;
+}
+
+p footer {
+    color: #481620;
+    background-color: none;
+}
+
+p {
+    width: 25%;
+    background-color: #f9f9f9;
+    font-size: medium;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+b {
+    color: #d55672;
+}
