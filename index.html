@@ -1,58 +1,72 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="eng">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Revisao</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" href="strawwwwww.png">
+    <title>Formularios</title>
 
-    <link rel="stylesheet" href="revisao.css">
+<link rel="stylesheet" href="default.css">
 
 </head>
-<body>
 
-    <header>
+    <body>
 
-        cabeçalho
+        <h1>Formuários</h1>
 
-    </header>
+        <h2>Elemento Input</h2>
 
-    <main>
+      <form action="#">
 
-        <p>The <b>garden strawberry</b> is a widely grown hybrid species of the genus Fragaria, 
-            collectively known as the <b>strawberries</b>, which are cultivated worldwide for their 
-            fruit. The fruit is widely appreciated for its characteristic <b>aroma, bright red 
-            color, juicy texture, and sweetness</b>. It is consumed in large quantities, either 
-            fresh or in such prepared foods as <b>jam, juice, pies, ice cream, milkshakes, and 
-            chocolates</b>. Artificial strawberry flavorings and aromas are also widely used in 
-            products such as <b>candy, soap, lip gloss, perfume, and many others</b>.</p>
-            
-        <p>The garden strawberry was first bred in <b>Brittany, France</b>, in the 1750s via a cross of 
-            <b>Fragaria virginiana</b> from eastern North America and Fragaria chiloensis, which was brought 
-            from <b>Chile by Amédée-François Frézier in 1714</b>. Cultivars of Fragaria ananassa have replaced, 
-            in commercial production, <b>the woodland strawberry (Fragaria vesca)</b>, which was the 
-            first strawberry species cultivated in the early 17th century.</p>
-            
-        <p>From a botanical point of view, the strawberry <b>is not a berry</b> but an <b>aggregate accessory fruit</b>, 
-            meaning that the fleshy part is derived <b>not from the plant's ovaries</b> but from the <b>receptacle 
-            that holds the ovaries</b>. Each apparent "seed" <b>(achene)</b> on the outside of the fruit is actually 
-            <b>one of the ovaries of the flower</b>, with a seed inside it.</p>
-            
-        <p>In 2019, world production of strawberries was <b>nine million tons</b>, led by <b>China with 40%</b> 
-            of the total.</p>
+        <div> 
 
-    </main>
-
-    <footer>
-        <div>
-    
-            <p>STRaWbeRRY IS THE BEST!!!</p>
-    
+            <label for="campo_nome">Nome:</label>
+            <input type="text" id="campo_nome" name="campo_nome">
+        
         </div>
-    
-    </footer>
 
-</body>
+        <div> 
+
+            <label for="campo_idade">Idade:</label>
+            <input type="number" name="campo_idade" min="0" max="300">
+        
+        </div>
+        
+        <div> 
+
+            <label for="campo_cor">Cor:</label>
+            <input type="color" name="campo_cor">
+        
+        </div>
+        
+        <div> 
+
+            <label for="campo_arquivo">Arquivo:</label>
+            <input type="file" name="campo_arquivo">
+
+        </div>
+
+            <input type="radio" name="campo_turno">
+            manha
+
+            <input type="radio" name="campo_turno">
+            tarde
+        
+            <input type="radio" name="campo_turno">
+            noite
+        
+        </div>
+
+        <div>
+
+            <input type="submit">
+
+        </div>
+
+      </form>
+    
+    </body>
 
 </html>
