@@ -1,0 +1,319 @@
+<html>
+    <head>
+<!DOCTYPE html>
+
+            <title>Cúrriculo do Johnny Five</title>
+<html lang="en">
+
+    </head>
+<head>
+
+    <body>
+    <meta charset="UTF-8">
+
+        <header>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <section class="secao-imagem">
+    <title>Aula Layout</title>
+
+                <img src="imagens/Johnny_5.webp" width="200">
+
+            </section>
+    <link rel="stylesheet" href="style.css">
+
+           <h1>Johnny Five</h1>
+
+        </header>
+
+        <main>
+</head>
+
+<body>
+
+    <header>
+
+           <section class="secao-conteudo">
+        <div class="container">
+
+            <hr>
+            <h2>Perfil</h2>
+            <p>Com 243 anos de vida e experiência, Johnny Five atua como psicólogo adulto-juvenil nas melhores clínicas de Filial do Inferno do estado de Taxilândia do país Pão com Banana, 
+                cituado no continente Setealém, no décimo-quarto planeta do Sistema Lunar, chamado Michael Chu. </p>
+
+            <p>Pai de 92 mini robos dentro do transtorno de espectro autista, ele sustensa a sua família vendendo Tupperware nas ruas enquanto mendiga dinheiro e peças de engrenagem. A mãe dos mini robos infelizmente abandonou a família após ter engravidado o Johnny Five e fugido para o João Gabriel do Sul, para comprar leite.
+            </p>
+            <p>O melhor Layout do mundo.</p>
+
+            <hr>
+            <h2>Principais competências</h2>
+            <ul>
+        </div>
+
+    </header>
+
+                <li>Ótima experiência como vendedor ambulante.</li>
+                <li>Ótimo desempenho lidando com problemas familiares e rotinos.</li>
+                <li>Intelecto comunicativo com adultos e jovens.</li>
+                <li>Experiência única em trabalhar sob pressão.</li>
+    <main>
+
+            </ul>
+        <div class="container">
+
+            <hr>
+            <h2>Formação Acadêmica</h2>
+            <p>Graduação em Psicologia Cognitiva dos Seres no IFTX (2090) e Mestrado em Vendedoria Ambulanteira de Esquina (2099).</p>
+
+            <aside>
+
+                Menu Lateral
+
+            </aside>
+
+            <section>
+
+                    <h1>Estruturando um Layout com HTML e CSS.</h1>
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Dolor animi illum soluta expedita, nesciunt eum vitae maiores nemo unde accusantium 
+                        totam fugit. 
+                        Provident dolore, corporis illum modi at cupiditate aut.</p>
+
+                        <h2>Meus projetos</h2>
+
+                        <div class="projects">
+
+                            <div class="project">
+                                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRgVFRUVGBgSFRgSGBIRERIYEhIYGBgZGRgVGBgcIS4lHB
+                                4rHxgYJjgmKy8xNTU1GiQ7QDszPy40NTEBDAwMEA8QHhISHjEhISs0NDQ0NDQ0NDQ0
+                                NDE0NDQ0NDY0NDQ0NDQ0MTQ0NDQ0NDQ0NDQ0NDQ0ND
+                                Q0NDY0MTQxMf/AABEIAMIBAwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAQIDBAUG
+                                Bwj/xAA7EAABAwIEAwYDBwIGAwAAAAABAAIRAyEEEjFBBSJRBjJhcYGRE6HRI0JScrHB4WLwBxUz
+                                grLxFEN0/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAECAwQF/8QAKBEAAwEAAgIBBAEEAwAAAAAAAAECEQ
+                                MxEiFBBCIyURNhkaHRNEJx/9oADAMBAAIRAxEAPwDx9CEKDMWUSkShAFnBUsxnYfqr1UqLDjK3xdfyC
+                                So4kLGn5URQx71FKJQVphKColpiyYDIUlLT1SroddDoSEJ6SFGmekZQnEIhPR6MKSE/KkIT0rRiE/KkhG
+                                ho1EJ0IRoaRohSIT0ekcKAq2VVKuWXL0RCEKigTU5IgoEqEIFoIQhAgQhCAFQhCkQKfCszOHhf2UCu8Ob
+                                zE9AlTxAy05u6jdvHRSPdG/yUOa+mxWEoy0gKEFC3QEehVjDix8/ooXC6mw2h8/olXQ6/EkKEpCRYmIiC
+                                w9PVdT2S7Oivmq1bU2SACYzuAk3/AAj5m3VdXxSq1rfgU6TIdyBjIbLSJDpjXQ+i57+qmb8Etfz/AEIrk
+                                UnlOVNK6Z/Cqb5yvaS3vFt4v097+CyuLYRjHfZh5YABneIzOi5FrCdPJdKZUcip58makSlIqNAQhCBghC
+                                EALCkxeADW5mk21BUQWzVYCCNimnjGm10c0QhXMZgy24uOvRU1qmbJ6gQhCYAhCEACEIQAIQhACoQhSIV
+                                alCGsHjdZYWi8yAOgUWtQmK6s3zTQ682VZzSEB6SkjBxQmBxOikg9CrDBpUuF0Pmf2ULlPhO76/RTf4ir
+                                8SWE6mwuIa0ElxADWgkknQAblIpcJiXU3texxa5jpDgYI2N/IlZGSOxwlU0qDC4Q1lEtyRBDnPe58k3B2
+                                /3KLiXFnMbh3MADm0hmJuZygZeoEWVD/PXOgVW0qvMCQ5vOJy3L28u+sRYhQ4viLHOcXMc1xv3szXOvN/
+                                Ekrm/iflrRlUv5WlzBEP8Ai1QcpfQdTDMjGtGUAi4Nzy6wPeVQx2NpPeagDWtfSc17Q+XF+U5TlNwQ7LE
+                                Wgeaz+I1S6CJAAgAaX10VfG4fKRDmuzXlrpjrPS66kvRUT78m+/8ABVJSIAQqNwlCEIAEIQmALUBzXB+i
+                                zGlWXVGtEgwfwjdC7E96J8TUhpzbgjzWErOKxJdAiIVZapGsT4oEIQAmWCFYZg3G+Ux1NlIOGv3geZU6h
+                                eS/ZTSLRbw/q5tul04YBtuY30hohGi80ZqFo/5YeoSp6HnJnIQhIYoV8sJAI3AVSjTzGPdWc8W6aBRRNC
+                                OYdz9SmlgvNo+ZRm3Ouygc4lNIETfEA09900ViN1CGpxZ0KrAxCvcrOEPL6/RVLxCs4bu+v0U0vtFa+0s
+                                yrvC+GOruIbDWtu57gcrfM9fBZwK7bCM+Bh8kcxBe8/1GOX0EfNcnNbifXb6OW68Z0rYfh2Hp5mPqPhxu
+                                5rGzA8CdN9z7KnieFuguYWPy/fpuBa5uxLTdpAGhA3Ta1UzmOmhHgbFVQ8tcINwbEaz1ShV22Zzba9i4L
+                                DCqXtc7L9m+o0BurmsL48RAdp1WK+QYOy1q7wczYAa50zDczXQJuBpY+/isuu0hxm5k36+K3k6ZZFKJQh
+                                WWEpJSwkhA8EJQClhBCYACq71YCrvTRUjUJwKfTpF2nubBXpekStYSkcwcRYGb6FWKeGDdbnx0Hip5vCR
+                                nXJ+iyeYg9EjmRM6aqt8bKea0K1SxLXaFS0YNPsXKNY1EXSNiYkeA3TnOi50CxK+JJcSPRGaEQ6NyPP3Q
+                                sX/MH9fkEI8S/wCFlVCEoVG5YwhgnyTHVUxjoPpCaGoxboYOc+UKNKHJ4GDwUoKZmTgUhNDzBU1AQPVQA
+                                qejoproiujV4HhDVrsaI7wcZ0DW8zj7ArseKPkkCIIfcmJJabxdcp2deRUcWiT8NwiYsYmPRXKlFzS4gg
+                                A/jOh1vH/d9CuHlny5FvwcfKnTSIX3BWbV73ktD47NM2Z3gyxvpM6eiynPlxNtTqF0SvQuKGtOhwOFw7g
+                                AXPz5ZyizZh7oLoOzelvFZvEcCGvc3XKbdQDcSNRZWsHhC4B4qNZBkFpdnBEAkR+YSSQAosZhch7xdJJD
+                                /vTuD5GRYwY9hdlL0+zBqMLTBH8psLRfXAdkeA5pIM3lnWI69FYqcMpwHB5G2UtDj6EETqFbaXZ0eWJad
+                                J/hrweXOxTwzKwGmwvPM18tlwG1jEn8VloduuCtrB1djodSbzBwhr2tJMtdFyJXOYHiDMMx9PmeHkOjMB
+                                lcLd24IIsf4VXivaN9VhpNbkYYlgJMkE3v3RpYWsueZt8rpv18IxtXVqp9Yc+ghS0aLnENaCS7QNBJK7z
+                                Adh6TmNc9z3EtBdlLWNa4gksMtcbGATvPguiqS7L5eaOJbTPPVGaZcYAXq1PsXhZDSDzWBdVOffSzRMZT
+                                od/BeeZQPJOKT6FxfVTabkq0MKBGa/ht/KuRaNOkIy7TruoK2IDRfvAwtC9qmSZrG8QL+IVSvi7AN1H3u
+                                vRQVq5cZPy0URTw2mM7Fc4m5MpadQgyFHKJTNMLlfGOcIOnhv5qolCQpYJJLoWUJEJgOASoQpYhAnJEJA
+                                I5iTKnFCej0Aw9EKxhBLm+cp/EGAOnrdT5e8FpVBVmgbKswEq1hm29UV0RfRq8PxDabHu+/ma1p3AIcT+
+                                gUNbFCpYmzdidSdSTuoWfz7aFRGjfXx/uFilO78mGS3vyXWhpsRpoQIIhQPplp0BB0Ks1sG+mxjzBbVBL
+                                SNbEggjbROpVNjvsVWp9ENuf6ljA4Sq8AtDQDLQ7MBcQC3z5gmcQztu+XG2WSYIMmRN41+a0uEUmOcA6sK
+                                IsQ57HPZMi1u6LD2XofCewtAua+tVFYASxrRlZJHeJBJcd5lOZdP0ZKtro83pcCyODq7AXOY14Y57oaCAQ
+                                SWkGdbSsPiNVrXtDDLWwcsyAQe6DvsN17nT7GUWVW1A5xYy/wnAGSNObpN79F5TjuxFZmIfTJbka7lqSDm
+                                b90wLh0RIMXTcuW3XRXFbluuV4vhHN/EL3dSToN10GA7OPe6X/AGbJn+ojoAdPM+y6LA8DoYdpdlAyXdVq
+                                kQ3waTYG+g6id1jcX7VhssoQbQarha1uVp/3XOxFrKe+iHz3yvOFev2zSf8A+Pg26ZSdxDqr9jE9D5BY1Dt
+                                pWZUzMDWtMTTPMHQACc2smNoXM1cQ5xLnOLi65c4kk+ZUKahZ7NY+kn/v9z/bOk7SdpHYh7XNljWDlaHS6T
+                                GZ2YRe0eQWa94bBcbGxG4Wdm+She8kySrmUjojhlJTKxIsVsWSMosBoRqqhckQtDdSl0EolIhBQIQhACyiU
+                                iEALKEiEASylTEKcIHFCahGAORKahAF/hjZcXdBHupuIUwcvWdPApcFyNk783nOg/dFMFzhP4gSfGRZYv8A
+                                LRfJfw3D2tZB1NyQqmKpBjoG4n5n6LbWRxY84/IP+TltaXiTyT60qZ0rC4kBoJLiGgDUk2ACjV3hDT8amRP
+                                K9r5EggNIJMi49FzvoxxHpnCOEUa9bC4dzQ5uGZnfNw52UnJ4jNBPWCLLd49/h7h60upfZv1lvcJ8QuZw3F
+                                n0arXNPM0uJDzOZ0cwJ9SLdQvTeEcTbiKbXtPeFxu07gqPo2qlzS96ZS5r7X6Z4q/s5VpVm06oytzXJsC0b
+                                t/FOluq7WhxECAQOWwg6ALqu03DTXoPY2M0ZmzFyDMTtIkT4rzDhrCagp5srxb4bzBzD7oJ0036eca8nE5fo
+                                8/6vivdT6O/w2PNQZZPM1zWva4jXUTsbCCuS45iG4Nmaq1znOJDG3aHxuXajW4/ddLwbgbiQ+oRlI7jTck3
+                                l0RF5t+i0e0PZ+ji6JpP5QDna9gAcx15cPcyN5W646qPu7Hw8VWlXJ0eBcZ41VxBGd0NHdpsGVjPJv7m6yiv
+                                SuK/4Zto0nVHYpvKQSX08rA0uAJ7xJcASQN4hedupAdf0WT+14z1YqEsnorJVapUmkidFLUw7ZEI8kU7RQhVy
+                                toU2t6SsZyqHppx1o0pEpSLQ1BCEIAEIQgAQhEIAEJYQgByEIUkAhCEACcwwQdYOnVNT6QuPNAGu94sMt+8Y
+                                Olv1QwhttFHOvhqep3UbjeVg0
+                                QdCx4IkKhxADMPy/uVXw2ILCL2MK5iKjZBO46eJV09knlrZKQaFq8KrNDpmMjS/wA8twPcD2WeajOjv79VP
+                                gmZi5wnKBBnefu+v1XNS1HJXWss4
+                                57hkc0mWtBd1Bcc37rpezPaf4NVuUWqGHs2F+9dc8QCOZR5crmuacrgbOGx2+nqlmY12jFUq9fPwfQmGxD
+                                XtBaZBEyuW4p8D/zmU/hRWfTL218oNO
+                                5eMjmzqQx1/ELA7K9og8Q1zmObZ9MFvKfxNa6QW+S18TgKmIxLKrKzQKTMrqgaQ65JDYk5nDzETvou2OXzn
+                                rGn7Qv51S8bWUvj/RqBzqZgNawZmwx
+                                z/s3En7ro5drX8lxfHe3lUVHMpBoawlmbvZiLFwJGkjot/tfx4Yem9gfmq1Bla0R9m0iC89N4H0leMYlrg
+                                dTHmU+a2sSY4lU830a/F+L18R/qPJEzl
+                                k5Z6kdVlfBHh7qFjSf5UpcG2FyubWbqcWIR9AC8pnxNh+ieyk52tgke9rdBJR2Wv0SUqY1PmsErRfXJWe
+                                QteNNbp0cKzRiE5C1NdGwnBhQFKjQbIi1
+                                JClITQEaGjcqcGJQEqWi0bkQnShGsWjIRCchGj0ZlS5U5KgNAU1NRZEneRA9U1qloNkz0upb9E6T1DADR6
+                                lQVHwfklYZcoK2qlSBaDpjwBKkdUJjwE
+                                KpQfCsgTcaJUsItCtJW81uVoaI5bn+px1P7LAmCt0uzCet1lSOPn3F+hhcSU94tCRoCe5Suzlb9+jLxjqj
+                                Hiowlpi7mkiI3PRX2dpMZl7+o7zQ3N6k
+                                KljqxJyjQ/PwTKGGLbzA1haOlnvs7cmpXkk2WaOJc885OY6ucTzeaumi2L6qqyqXcuUecK1TpZbzmH4SY9
+                                isnRz3369GY+iSYAgJwY1oub7q5i8TmE
+                                tEZdRpCx3OnXc6ppNm0bS9+h9auSYFlTeLqas8TboFXc5aysOiZwUBVirAcoCFqjWRkIhOyoyqtL0YnhyS
+                                EoCABKEkolIAJQiE8NQIZCFLlQloESE
+                                /KgtTFoxKE7IjIgNG5lYoO5XKuQnsNiOsJNASUnQCetkjmynRskRhO+yCIU9MkhIGK3hm29fopp4hVXorZS
+                                tzhdSWEH7pj0KoOELQ4OyagB0dY/qs
+                                br7Tm5qTh6TGiD970lK3DEaukeOq13UGgC3XUWOqpV2E3sAOgifBc88m9HBPL5ekZOIp8/KL2EqRtAtMvd6
+                                Kc12sHVxWdXquebmB0Wi2jsnWsLjs
+                                UG9wWUWfMbyD4GJVWk6BHrKl/uFSlIHKRajYwR10PkszE4fKfDYrQpOj+UmLZLSdxdaIUU1WGRlRlTikhUd
+                                WjCFXJVqFVhXJpIApwKQhNJVFikph
+                                KJRCAElKAnNYnJsYgSkppcmlyWCwfKFFKE8HhNnSZkxCROD8yC8pkoQPBxcp6TYE9dPqo6LJ8hqpSUE08ES
+                                gJEhKCBxKt4RpIt1+iohaOBnLb8X7
+                                BZ8nqSb9SW2Yfdy0+CUgarZsLn2aVmkAXcVp9nagc/WATlzfhsXF3pAXHeuWcfLvg2aeKcAbbidBqeiw8biYz
+                                c1xYg633WxxzFRiGiS8AtDXOJBD
+                                Q4WjS8eCwe12ENKt4VAXxs3ncIHhZH08bKZjwcK8kn8rTOdXb1lROxAVVC61KR6ShInNfwU+HxMm/8qip8
+                                E2XaxYyb2EG9k3KwKhNGqBuFHjHQw/
+                                3urHDmBxa3MBnMZoMC4Eo7QYMU3Gmx4qQMxcwHKALlRJyT+aRz5qHqkLyd1LTw5KsMotCt0kdzaKraZP
+                                VQFy0nlZZCqHpUvQLpSJzWJ4aqKGNanw
+                                iVG5yAFc5MLkhKRVhWBKEITAEIQgB0oSJVIgStTVJSFwhgyw
+                                BAhNlK5IkZN6ISkSlIgBwV/CVsrSIvmJn0CoBWKRsotaia9odVqEm5V3hPEPhmBYzna7YOEEA+BiPVZd
+                                RDDceajxTWCcpzjO+xmGplxqOc8BhaW
+                                gtD3uBhwzOkD
+                                UqLt5TY5janKHSC0Ddp7zR5OI+aZhyalCBcwJk7Nas/tjiJNJmsMFTMNCHtafkQVhwp9fo83hTfMlvTf
+                                8AY5ZCAE5tMnQLqPV0arWDYZd5R8x9E
+                                +ngjv7K9h2NbPkP1H1WdWl6RFV6LfC8LljN1tGxj/paVfDZqr3RyGm+HGwJLHRfzCqY
+                                fEBrfyuDv79vmq44q/M4ZnZTTeIJMDlOg01j3WSbpHAlVW2ZLqgCjzE6BK2kNSkdVAFlokvg7kGTqVRy
+                                qepUlV3PWspmsodomOcmlyBoVeFiFyal
+                                QUxjSEJSkVDBEICVSAkISoTDQQhCQgT6WqEIYPosFIhCRihqUIQgYoU9PRCFF9E10R1E0JEJLoa6Oz4J
+                                /pn8p/Qqh2r/APT/APM3/kUIXPw/k
+                                zzeH/kP/wBZz9PULSoIQtOQ9CieuqlHU/ld+iVCzkyNHD9z0/cKhjO+fJCFUdGXH+TK1VVHIQtJOqRj
+                                lC5CFqjWRCnN0KRCosQoKEIAQpEIVDAJU
+                                ISBghCEhH//2Q==" alt="">
+
+                                Projeto 1
+
+                            </div>
+
+                            <div class="project">
+                                <img src="https://pbs.twimg.com/profile_images/1661195633590431744/8PQt2rPu_
+                                400x400.jpg" alt="">
+
+                                Projeto 2
+
+                            </div>
+
+                            <div class="project">
+                                <img src="https://i.pinimg.com/564x/7d/18/b2/7d18b20e9d435a4fdc05dc44d88
+                                1a254.jpg" alt="">
+
+                                Projeto 3
+
+                            </div>
+
+            <hr>
+            <h2>Experiência Profissional</h2>
+            <ol>
+                        </div>
+                        
+            </section>
+
+                <li>Clínica de Reabilitação EHG (2094-2099)
+                    <ul>
+                        <li>Psicológo Infanto-juvenil</li>
+                        <li>Vendedor ambulante de goloseimas</li>
+                    </ul>
+                </li>
+        </div>
+
+    </main>
+
+                <li>Musicista (2092-2093)
+                    <ul>
+                        <li>Baixista da banda Sistem Of A Down</li>
+                    </ul>
+                </li>
+            </ol>
+    <footer>
+
+           </section>
+        <div>
+
+            <p>Feito por Lui.</p>
+
+        </main>
+        </div>
+
+    </footer>
+
+    </body>
+</body>
+
+</html>
+</html>
+ 66 changes: 66 additions & 0 deletions66  
+style.css
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* LAYOUT */
+
+header {
+    color: rgb(239, 236, 236);
+    background: #0b1957;
+    padding: 30px 0;
+    /*TOP e BOTTOM, LEFT e  RIGHT*/
+}
+
+main .container {
+    background: #5784e6;
+    padding: 5px;
+}
+
+footer {
+    color: rgb(239, 236, 236);
+    background: #0b1957;
+    padding: 30px 0;
+    /*TOP e BOTTOM, LEFT e  RIGHT*/
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    /*top right bottom left*/
+    min-height: calc(100vh - 78px - 78px);
+
+}
+
+/* COLUNAS DA PAGINA INICIAAAAAAAAAAAAAAAAAAAAAAAAAAL.*/
+
+aside {
+    width: 20%;
+    background: #d1e8ff;
+    float: left;
+    min-height: calc(100vh - 78px - 5px);
+}
+
+section {
+
+    width: 80%;
+    background: #5784e6;
+    float: left;
+}
+
+.project {
+
+     width: 33.33%;
+     border: solid 2px #000;
+     height: 180px;
+     float: left;
+     padding: 10px;
+     overflow: hidden;
+}
+
+.project img {
+
+    max-width: 100%;
+}
