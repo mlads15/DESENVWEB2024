@@ -68,12 +68,34 @@
       }
 
       .menu .botao {
-        width: 50%;
+        width: 40%;
         float: left;
+        background: #083999;
+        padding: 6px 15px;
+        margin: 30px 10px 10px 10px;
       }
 
+      .menu .botao i {
+        background: #8ff242;
+        padding: 5px;
+        border-radius: 50%;
+        font-size: 10px;
+        margin: 10px;
+      }
+
+      .menu .botao i:hover {
+        background: #1093f1; 
+      }  
+
       .menu .botao a {
-        font-size: ;
+        font-size: 10px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+
+      .menu .botao:hover {
+        background: #085ce6;
       }
   
   .sidebar {
