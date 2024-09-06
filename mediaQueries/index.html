@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Media Queries</title>
+
+    <style>
+
+        body {
+
+            background-color: #DFF3E3;
+
+        }
+
+        h1 {
+
+            font-size: 40px;
+
+        }
+
+        @media screen and (min-width:768px) and (max-width:1023px) {
+
+            body {
+
+                background-color: aqua;
+                color: beige;
+
+            }
+
+            h1 {
+
+                font-size: 50px;
+            }
+            
+        }
+
+        @media screen and (min-width: 1024) {
+
+            body {
+
+                background-color: blueviolet;
+                color: black;
+
+            }
+
+            h1 {
+
+                font-size: 34px;
+
+            }
+        }
+
+        @media screen and (max-width:727px) {
+
+            body {
+
+                background-color: brown;
+                color: cadetblue;
+
+            }
+
+            h1 {
+
+                font-size: 70px;
+            }
+
+        }
+
+        .img img {
+
+            display: none;
+
+        }
+
+        .img-pequena {
+
+            display: block;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Media Queries</h1>
+
+    <div class="img img-grande">
+
+        <img src="https://placehold.co/1000x400" alt="">
+
+    </div>
+
+    <div class="img img-pequena">
+
+        <img src="https://placehold.co/600x400" alt="">
+
+    </div>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente praesentium rem optio qui corporis, adipisci ipsum officiis sed illum blanditiis, a cupiditate, corrupti aperiam modi nulla vero nihil ex ducimus?</p>
+    
+</body>
+
+</html>
