@@ -1,0 +1,135 @@
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            transition: background-color 0.5s ease, color 0.5s ease; /*transição suave ao trocar de página*/
+        }
+
+        header {
+            background-color: #C57B57;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 1s ease; /*transição suave para quamdo a página for carregada*/
+        }
+
+        /*nao esquecer que nav é uma seção com links de navegação*/
+        nav {
+            background-color: #F1AB86;
+            padding: 10px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000; /*é pra especificar a ordem de sobreposição de elementos na tela*/
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: large;
+            transition: color 0.3s ease; /*transição suave que muda a cor dos links*/
+        }
+
+        nav a:hover {
+            color: #F7DBA7; /*cor diferente quando passa o mouse por cima :p*/
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transition: opacity 1s ease; /*transição suave pra quando a página for carregada*/
+        }
+
+        /*boniteza só da HomePage*/
+
+        #homepage {
+            background-image: url(flavinha2.png);
+            background-blend-mode: multiply;
+            background-color: rgba(0, 0, 0, 0.5);
+            background-position: 100%;
+            background-size: 100%;
+            background-position: center center;
+            opacity: 0.5;
+            padding: 200px 20px;
+            margin: 25px;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: x-large;
+            font-weight: 900;
+            color: white;
+            
+        }
+
+        #homepage a {
+            transition: color 0.3s ease;
+        }
+
+        #homepage a:hover {
+            color: #C57B57
+        }
+
+        /*boniteza das outras páginas*/
+        section:not(#homepage) {
+            background-color: #251605;
+            color: white;
+        }
+
+        footer {
+            background-color: #C57B57;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            opacity: 0;
+            transition: opacity 1s ease; /*transição suave ao carregar a página*/
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form label {
+            margin: 10px 0 5px;
+        }
+
+        form input, form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            transition: border-color 0.3s ease; /*transição suave para os campos do formulário*/
+        }
+
+        form input:focus, form textarea:focus {
+            border-color: #F1AB86; /*muda a cor da borda ao focar*/
+        }
+
+        form button {
+            padding: 10px;
+            background-color: #F1AB86;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.3s ease, background-color 0.3s ease; /*transição suave pra o botão*/
+        }
+
+        form button:hover {
+            background-color: #F7DBA7;
+            transform: scale(1.05); /*aumenta quando passa o mouse hehehehe*/
+        }
+
+        /*transição da opacidade quando a página carrega*/
+        body.loaded header,
+        body.loaded section,
+        body.loaded footer {
+            opacity: 1;
+        }
