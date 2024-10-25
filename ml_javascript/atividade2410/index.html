@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mudança</title>
+
+</head>
+
+<body>
+
+    <h1 id="tempestade">Inmet emite alerta vermelho para tempestade; veja regiões afetadas</h1>
+
+    <script>
+
+    let h1 = document.getElementById('tempestade')
+
+    // tentativa 1
+    // let h1 = document.querySelector('h1')
+
+    // function alterarTexto(msg) {
+    //     texto.innerText = msg
+    // }
+
+    // tentativa 2
+    //    let h1 = document.querySelector.('Inmet emite alerta vermelho para tempestade; veja regiões afetadas').textContent = 'cansei'
+
+    h1.addEventListener('click', function (){ 
+
+        h1.textContent = "Previsão alerta ventos que podem alcançar velocidade acima de 100km/h. Confira:"
+        h1.style.color = "red"
+        h1.style.fontSize = '33px'
+
+    });
+
+    </script>
+    
+</body>
+
+</html>

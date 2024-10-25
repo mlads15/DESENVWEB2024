@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <h1>10</h1>
+    
+    <button>A Contagem Regressiva começa aqui!</button>
+
+    <p></p>
+
+    <script>
+
+        let contador = 10;
+        const regressiva = document.querySelector('h1');
+        let interval = setInterval(() => {
+
+            regressiva.innerText = contador;
+            contador--;
+
+            if(contador == 0) {
+
+                clearInterval(interval);
+
+            }
+
+        }, 1000);
+
+
+        // const input = document.querySelector('input');
+
+        // input.addChocolate('keyup', () => {
+
+        //     textos[1].innerText = input.value;
+
+        //     if(textoDigitado == "Chocolate") {
+
+        //         textos[1].innerText = "Eu amo sorvete de chocolate.";
+
+        //     } else {
+
+        //         textos[1].innerText = "Hmmm... você é diferente das outras garotas.";
+
+        //     }
+
+        // });
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet"> -->
+
+    <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Danfo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Danfo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+
+            font-family: 'Poppins';
+
+        }
+
+        body {
+
+            display: flex;
+
+            background-color: #7E7E7E;
+            justify-content: center;
+            text-align: center;
+            padding-top: 17%;
+
+        }
+
+        .erro {
+
+            color: #31393c;
+            /* visibility: hidden; */
+            display: none;
+            font-family: 'Archivo';
+
+        }
+
+        .grupo {
+
+            padding: 10px;
+
+        }
+
+        input {
+
+            width: 285px;
+            outline: none;
+            border-radius: 5px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+
+        }
+
+        input.invalido {
+
+            border: solid 2px #31393c;
+
+        }
+
+        input.enviar {
+
+            transition: color 0.3s ease;
+
+        }
+
+        input.enviar:hover {
+
+            color: #31393c;
+            
+        }
+
+        a {
+
+            margin-left: 0px;
+            margin-right: 0px;
+            padding: 0px
+
+        }
+
+        /* input:not(submit) {
+
+            width: 275px;
+
+        } */
+
+    </style>
+
+</head>
+
+<body>
+
+    <form action="">
+
+        <div class="grupo">
+
+            <input type="text" placeholder="Informe seu nome completo.">
+            <span class="erro">O nome deve conter pelo menos três (3) caractéres.</span>
+
+        </div>
+
+        <div class="grupo">
+
+            <input type="text" placeholder="Informe seu e-mail.">
+            <span class="erro">É necessário que o e-mail seja válido.</span>
+
+        </div>
+        
+        <div class="grupo">
+
+            <input type="password" placeholder="Informe a senha de acesso ao seu e-mail.">
+            <span class="erro">É necessário que a senha inserida possua oito (8) caractéres ou mais.</span>
+
+            <a href="alternarSenha">&#128065;</a>
+
+        </div>
+        
+        <div class="grupo">
+
+            <input type="password" placeholder="Confirme sua senha.">
+            <span class="erro">A senha inserida não corresponde com a anterior.</span>
+
+        </div>
+
+        <div class="grupo">
+
+            <input type="submit" value="Enviar">
+
+        </div>
+
+    </form>
+
+    <script>
+
+        const inputs = document.querySelectorAll('input');
+        const erros = document.querySelectorAll('.erro')
+
+        function validaNome() {
+
+            if(inputs[0].value.length <= 3) {
+
+                console.log("Digitou")
+                erros[0].style.display = 'block'
+                inputs[0].classList.add('invalido')
+
+
+            } else {
+
+                erros[0].style.display = 'none'
+                inputs[0].classList.remove('invalido')
+
+
+            }
+
+        }
+
+        inputs[0].addEventListener('input', validaNome)
+
+        function validaEmail() {
+
+            const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+            if(!emailRegex.test(inputs[1].value) == false) {
+
+
+
+                erros[1].style.display = 'block'
+                inputs[1].classList.add('invalido')
+
+
+            } else {
+
+                erros[1].style.display = 'none'
+                inputs[1].classList.remove('invalido')
+
+
+            }
+
+        }
+
+        inputs[1].addEventListener('input', validaEmail)
+
+        function validaSenha() {
+
+            const senhaRegex = /^(?=.*[A-Z])(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$/;
+
+            //senha valida IFPR2024tds#
+
+            if(!senhaRegex.test(inputs[2].value)) {
+
+                erros[2].style.display = 'block'
+                inputs[2].classList.add('invalido')
+
+            } else {
+
+                erros[2].style.display = 'none'
+                inputs[2].classList.remove('invalido')
+
+            }
+
+        }
+
+        inputs[2].addEventListener('input', validaSenha)
+
+        function confirmaSenha () {
+
+            if(inputs[3].value !== inputs[2].value) {
+
+                erros[3].style.display = 'block'
+                inputs[3].classList.add('invalido')
+
+            } else {
+
+                erros[3].style.display = 'none'
+                inputs[3].classList.remove('invalido')
+
+            }
+
+        }
+
+        inputs[3].addEventListener('input', confirmaSenha)
+
+        document.querySelector('form').addEventListener('submit', (evento)=> {
+
+            evento.preventDefault()
+
+            validaNome()
+            validaEmail()
+            validaSenha()
+            confirmaSenha()
+
+        });
+
+        document.querySelector('alternarSenha').addEventListener('click', ()=> {
+
+            const tipoAtual = inputs[2].getAttribute('type');
+
+            const tipo = tipoAtual === 'password' ? 'text' : 'password;'
+
+            inputs[2].setAttribute('type', tipo)
+
+        });
+
+    </script>
+    
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Botão Contador</title>
+
+</head>
+
+<body>
+
+    <button>Clique Aqui</button>
+    
+    <script>
+
+        let cliquesNumeros = 0;
+
+        const button = document.querySelector('button');
+
+        button.onclick = contaCliques();
+
+        button.addEventListener('click', () => {
+
+            console.log("cliquastes");
+            cliquesNumeros++;
+            textos[0].innerText = "Você clicou" + cliquesNumeros + " vezes.";
+
+        });
+
+    </script>
+
+</body>
+
+</html>

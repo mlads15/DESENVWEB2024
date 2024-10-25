@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Listener</title>
+
+</head>
+
+<body>
+
+    <button>Clique Aqui!</button>
+
+    <p></p>
+
+    <input type="text">
+
+    <p></p>
+
+    <script>
+
+        let numeroCliques = 0;
+
+        const botao = document.querySelector('button');
+        const texto = document.querySelectorAll('p');
+
+        const input = document.querySelector('input');
+
+        botao.onclick = contarCliques();
+
+        //function contarCliques()
+
+        botao.addEventListener('click', () => {
+
+        console.log("clicou");
+        numeroCliques++;
+        textos[0].innerText = "O botão foi clicado: " + numeroCliques + " vezes.";
+
+    });
+
+    input.addEventListener('keyup', () => {
+
+        textos[1].innerText = input.value;
+
+        if(textoDigitado == "Calabresa") {
+
+            textos[1].innerText = "Um sabor clássico.";
+
+        } else if(textoDigitado == "Frango com Catupiry.") {
+
+            textos[1].innerText = "Um sabor que divide opiniões.";
+
+        } else {
+
+            textos[1].innerText = "Seu gosto é peculiar.";
+
+        }
+
+    });
+
+    document.addEventListener('click', () =>{
+
+        let bgColor = 'rgb(' + Math.random() * 225 + ',' + Math.random() * 225 +')';
+        document.body.style.backgroundColor = bgColor;
+
+    });
+
+        // botao.onclick = function () {
+
+        //     console.log("clicou");
+        //     numeroCliques++;
+        //     texto.innerText = "O botão foi clicado: " + numeroCliques + " vezes.";
+
+        // }
+
+        // botao.addEventListener('click', function(){});
+        // botao.addEventListener('click', contarCliques);
+
+
+
+    </script>
+
+</body>
+
+</html>
