@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <div class="produto-item">
+
+        <img src="" alt="Produto 4" class="produto.img">
+        <h2>Produto 4</h2>
+        <p class=""></p>
+
+    </div>
+
+    <script>
+
+        let produto1 = {
+
+            "nome": "Produto1",
+            "preço": 50.00,
+            "quantidade": 1
+
+        }
+
+        let carrinho = [produto1];
+
+        localStorage.setItem('carrinho', JSON.stringify(carrinho));
+
+    </script>
+    
+</body>
+
+</html>

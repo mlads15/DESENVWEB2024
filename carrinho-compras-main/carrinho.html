@@ -38,188 +38,24 @@
 
         <!-- item 2 -->
         <div class="item-carrinho">
-
             <div class="item">
-
                 <img src="https://picsum.photos/300/500" alt="Imagem do Produto" class="item-img">
-
                 <div class="item-info">
-
                     <h2>Nome do Produto</h2>
                     <p class="preco">R$ 50,00</p>
                     <label for="quantidade">Quantidade:</label>
                     <input type="number" id="quantidade" name="quantidade" min="1" value="1">
-
                 </div>
-
             </div>
 
             <button class="botao-remover">Remover</button>
-
-        </div>
-
-        <div class="item-carrinho">
-
-            <div class="item">
-
-                <img src="https://picsum.photos/300/500" alt="Imagem do Produto" class="item-img">
-
-                <div class="item-info">
-
-                    <h2>Nome do Produto</h2>
-                    <p class="preco">R$ 50,00</p>
-                    <label for="quantidade">Quantidade:</label>
-                    <input type="number" id="quantidade" name="quantidade" min="1" value="1">
-
-                </div>
-
-            </div>
-
-            <button class="botao-remover">Remover</button>
-
-        </div>
-
-        <div class="item-carrinho">
-
-            <div class="item">
-
-                <img src="https://picsum.photos/300/500" alt="Imagem do Produto" class="item-img">
-
-                <div class="item-info">
-
-                    <h2>Nome do Produto</h2>
-                    <p class="preco">R$ 50,00</p>
-                    <label for="quantidade">Quantidade:</label>
-                    <input type="number" id="quantidade" name="quantidade" min="1" value="1">
-
-                </div>
-
-            </div>
-
-            <button class="botao-remover">Remover</button>
-
         </div>
 
         <div class="total">
-
             <p>Total: R$ 50,00</p>
             <button class="botao-comprar">Finalizar Compra</button>
-
         </div>
-
     </main>
-
-    <script>
-
-        const produtoItemNome = document.querySelectorAll('.produto-item h2');
-
-        const produtoItemPreco = document.querySelectorAll('.produto-item p');
-
-        const produtoItemBtn = document.querySelectorAll('.produto-item a');
-
-        for (let index = 0; index < 4; index++) {
-
-            produtoItemBtn[0].addEventListener('click', (evento)=>{
-
-            evento.preventDefault(); //para evitar que o link vá para a página antes de executar a lógica
-
-            let carrinho = obterTodosProdutos();
-
-            carrinho.array.forEach( p => {
-
-                if (p.nome == produtoItemNome(index).textContent) {
-
-                    p.quantidade++
-
-                    carrinho.push(p)
-
-                    produtoJaExiste = true;
-
-                }
-
-            });
-
-            if(produtoJaExiste == false) {
-
-                let produto1 = {
-
-                "nome": produtoItemNome[0].textContent,
-                "preço": produtoItemPreco[0].textContent,
-                "quantidade": 1,
-
-                }
-
-                carrinho.push(produto);
-
-                // let carrinho = [produto1];
-
-                localStorage.setItem('carrinho', JSON.stringify(carrinho));
-
-            }
-
-            });
-
-        }
-
-        function obterTodosProdutos(){
-
-            let carrinho = JSON.parse(localStorage.getItem('carrinho'));
-
-            if(carrinho.length < 1) {
-
-                carrinho = [];
-
-            }
-
-            return carrinho;
-
-        }
-
-        let carrinho = localStorage.getItem("carrinho");
-
-        carrinho = JSON.parse(carrinho);
-        console.log(carrinho);
-
-        elementosNoCarrinho = carrinho.length;
-
-        for (let i = 0; i < elementosNoCarrinho; i++) {
-
-            criarItemCarrinho(carrinho[1]);
-
-        }
-
-        function criarItemCarrinho(itemFofinho){
-
-            let itemCarrinho = document.createElement('div');
-            itemCarrinho.classList.add = 'item-carrinho';
-
-            let item = document.createElement('div');
-            item.classList.add = 'item';
-
-            let itemInfo = document.createElement('div');
-            itemInfo.classList.add = 'item-info';
-
-
-            let nomeProduto = document.createElement('h2');
-            nomeProduto.textContent = nomeProduto;
-
-            let precoProduto = document.createElement('p');
-            precoProduto.classList.add = 'preco';
-            precoProduto.textContent = precoProduto;
-
-            itemInfo.appendChild(nomeProduto);
-            itemInfo.appendChild(precoProduto);
-
-            item.appendChild(itemInfo);
-            itemCarrinho.appendChild(item);
-
-            let carrinho = document.querySelector('.carrinho');
-            carrinho.appendChild(itemCarrinho);
-
-        }
-
-    </script>
-
 </body>
 
 </html>
